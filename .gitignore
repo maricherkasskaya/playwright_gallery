@@ -3,3 +3,8 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+allure-report
+allure-results
+src/.DS_Store
+pages/.DS_Store
+tests/.DS_Store

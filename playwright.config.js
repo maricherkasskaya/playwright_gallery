@@ -32,6 +32,9 @@ module.exports = defineConfig({
     trace: 'on-first-retry',
     globalTimeout: 120000, // Устанавливает глобальный тайм-аут на 60 секунд
   },
+    expect: {
+      timeout: 10000,
+      },
 
   /* Configure projects for major browsers */
   projects: [
