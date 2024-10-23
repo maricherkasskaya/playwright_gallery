@@ -7,7 +7,7 @@ import { App } from '../src/pages';
 const url  = ('/');
 let app;
 
-test('Пользователь может воспользоваться поиском на главной странице', async ({ page }) => {
+test('Пользователь может воспользоваться повторным поиском', async ({ page }) => {
   await allure.tags ("UI", "search");
   app = new App(page);
 
