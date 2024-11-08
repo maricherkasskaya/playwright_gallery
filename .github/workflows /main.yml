@@ -66,7 +66,7 @@ jobs:
           allure_history: allure-history
           keep_reports: 20 
       # Выгрудаем отчет
-       - name: Deploy report
+      - name: Deploy report
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
