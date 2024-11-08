@@ -1,6 +1,8 @@
 name: Gallery Test
 # Когда выполняем тесты
 on:
+  push:
+    branches: [main, master]
   pull_request:
     branches: [main, master]
   workflow_dispatch:
