@@ -1,8 +1,6 @@
 name: Gallery Test
 # Когда выполняем тесты
 on:
-  push:
-    branches: [main, master]
   pull_request:
     branches: [main, master]
   workflow_dispatch:
@@ -21,12 +19,12 @@ jobs:
         with:
           node-version: lts/*
       #Устанавливаем зависимости
-      - run: npm i
+      - run: npm install
       #Устанавливает PW 
-      - name: Install PW
+      - name: install PW
         run: npx playwright install --with-deps
       #Запускаем тесты
-      - name: Run PW test
+      - name: run PW test
         run: npm run test
       #Сохраняем результаты теста
       - name: save test-results
@@ -73,4 +71,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
- 
