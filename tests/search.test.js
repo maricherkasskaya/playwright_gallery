@@ -2,8 +2,6 @@ import { test, expect } from '@playwright/test';
 import * as allure from "allure-js-commons";
 import { App } from '../src/pages';
 
-
-
 const url  = ('/');
 let app;
 
@@ -26,13 +24,10 @@ test('Пользователь может воспользоваться пов�
     await expect (app.resultPage.searchResult).toHaveValue('пушкин');
   });
   
-  
   //Проверяем включение поиского запроса "Пушкин" в строку url
   await allure.step ("Поисковый запрос 'Пушкин' включен в в строку url", async () => {
     await expect (app.resultPage.getCurrentUrl()).toContain('query=%D0%BF%D1%83%D1%88%D0%BA%D0%B8%D0%BD')
   });
-
-  
 
   // 'Пользователь может ввести новый поиск через строку поиска'
   await app.mainPage.fillSearchBox('италия'); 
