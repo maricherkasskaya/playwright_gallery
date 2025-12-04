@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","15068","Пользователь может воспользоваться повторным поиском","chromium","Thu Dec 04 01:56:37 UTC 2025","passed","Thu Dec 04 01:56:52 UTC 2025","","search.test.js","",""
