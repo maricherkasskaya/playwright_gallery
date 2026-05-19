@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","30012","Пользователь может воспользоваться повторным поиском","chromium","Tue May 19 03:59:41 UTC 2026","broken","Tue May 19 04:00:11 UTC 2026","","search.test.js","",""
