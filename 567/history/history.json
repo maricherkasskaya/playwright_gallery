@@ -1,1 +1,0 @@
-{"8b0f99b88a9557ed8f946bf36fe9f7df:5bd835b0d6b1d4ada3b9f0db936e82c8":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"5d787e9781cce8e9","reportUrl":"https://maricherkasskaya.github.io/playwright_gallery/567/#testresult/5d787e9781cce8e9","status":"passed","time":{"start":1779940849682,"stop":1779940858135,"duration":8453}}]}}
